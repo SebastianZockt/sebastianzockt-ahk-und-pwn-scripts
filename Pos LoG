@@ -1,0 +1,324 @@
+//Zeile 250 <- Entfernen
+posfunc(dir = false, x = false, y = false, z = false) {
+	if (!x && !y && !z)
+		GetPlayerPosition(x, y, z, r)
+	if (x >= -145 && x <= 524) && (y >= 1591 && y <= 2213)
+		mpos := "Area 51"
+	else if (x >= -2767 && x <= -2589) && (y >= 1158 && y <= 2244)
+		mpos := "Gant Bridge"
+	else if (x >= 824 && x <= 1199) && (y >= 1101 && y <= 1373)
+		mpos := "Fahrschule (LV)"
+	else if (x >= 196 && x <= 872) && (y >= 985 && y <= 1291)
+		mpos := "Farm (LV)"
+	else if (x >= 329 && x <= 824) && (y >= 1291 && y <= 1591)
+		mpos := "Öl-Pumpen Wüste LV"
+	else if (x >= 250 && x <= 958) && (y >= 632 && y <= 1057) || (x >= 872 && x <= 958) && (y >= 1058 && y <= 1101)
+		mpos := "Steinbruch"
+	else if (x >= -476 && x <= 250) && (y >= 725 && y <= 1269)
+		mpos := "Fort Carson"
+	else if (x >= -500 && x <= -118) && (y >= 1269 && y <= 1683) || (x >= -500 && x <= -476) && (y >= 1228 && y <= 1269)
+		mpos := "ehm. Terror Base (LV)"
+	else if (x >= -533 && x <= -214) && (y >= 2084 && y <= 2357)
+		mpos := "verlassenes Dorf (Paintball-Map)"
+	else if (x >= -891 && x <= -289) && (y >= -722 && y <= -241)
+		mpos := "ehem. Trucker Base"
+	else if (x >= -891 && x <= -387) && (y >= -848 && y <= -723) || (x >= -892 && x <= -327) && (y >= -1461 && y <= -848) || (x >= -412 && x <= -327) && (y >= -1544 && y <= -1461)
+		mpos := "Äcker bei Trucker Tanke"
+	else if (x >= -1673 && x <= -891) && (y >= -1461 && y <= -892)
+		mpos := "The Farm"
+	else if (x >= -2073 && x <= -1863) && (y >= 225 && y <= 387)
+		mpos := "Wang Cars"
+	else if (x >= -1673 && x <= -412) && (y >= -1952 && y <= -1461)
+		mpos := "Hanffarm"
+	else if (x >= -2779 && x <= -2472) && (y >= 434 && y <= 728)
+		mpos := "Krankenhaus (SF)"
+	else if (x >= -2701 && x <= -2277) && (y >= 551 && y <= 917)
+		mpos := "24/7 (SF Stadt)"
+	else if (x >= -2995 && x <= -2701) && (y >= 551 && y <= 1217)
+		mpos := "Palisades (ehm. Admininsel SF)"
+	else if (x >= -1673 && x <= -1040) && (y >= -2500 && y <= -1952)
+		mpos := "Sumpf bei Mount Chiliad"
+	else if (x >= -2565 && x <= -1673) && (y >= -2713 && y <= -2191)
+		mpos := "Angel Pine"
+	else if (x >= -2975 && x <= -2565) && (y >= -2913 && y <= -2191) || (x >= -2565 && x <= -1673) && (y >= -2913 && y <= -2713)
+		mpos := "Strand Angel Pine"
+	else if (x >= -1673 && x <= -1040) && (y >= -2979 && y <= -2500)
+		mpos := "24/7 bei Angel Pine"
+	else if (x >= -2004 && x <= -1673) && (y >= -1835 && y <= -1385)
+		mpos := "Schrottplatz Mount Chiliad"
+	else if (x >= -2975 && x <= -1673) && (y >= -2191 && y <= -892)
+		mpos := "Mount Chiliad"
+	else if (x >= -2975 && x <= -2245) && (y >= -892 && y <= -438)
+		mpos := "Missionary Hill"
+	else if (x >= -2245 && x <= -1863) && (y >= -892 && y <= -366)
+		mpos := "Dirtring Arena bei Fahrschule (SF)"
+	else if (x >= -2975 && x <= -2245) && (y >= -438 && y <= -65)
+		mpos := "Golfclub (SF)"
+	else if (x >= -2245 && x <= -1863) && (y >= -366 && y <= -65)
+		mpos := "Fahrschule (SF)"
+	else if (x >= -1180 && x <= -891) && (y >= -892 && y <= -519)
+		mpos := "Raffinerie bei Airport (SF)"
+	else if (x >= -2992 && x <= -2335) && (y >= 2071 && y <= 2992) || (x >= -2335 && x <= -2087) && (y >= 2071 && y <= 2500)
+		mpos := "Bayside"
+	else if (x >= -2335 && x <= -1912) && (y >= 2435 && y <= 2992)
+		mpos := "Bayside Tunnels"
+	else if (x >= -2087 && x <= -1911) && (y >= 2071 && y <= 2435)
+		mpos := "Bayside HW"
+	else if (x >= -1911 && x <= -1298) && (y >= 2229 && y <= 2992)
+		mpos := "El Quebrados"
+	else if (x >= -1911 && x <= -1231) && (y >= 1602 && y <= 2229) || (x >= -1231 && x <= -1008) && (y >= 1776 && y <= 2229)
+		mpos := "westlich Sherman Staudamm"
+	else if (x >= -1298 && x <= -717) && (y >= 2554 && y <= 2992)
+		mpos := "Brücke El Quebrados"
+	else if (x >= -1298 && x <= -717) && (y >= 2229 && y <= 2554) || (x >= -1008 && x <= -533) && (y >= 2157 && y <= 2229) || (x >= -717 && x <= -533) && (y >= 2229 && y <= 2357)
+		mpos := "Stausee"
+	else if (x >= -717 && x <= -409) && (y >= 2357 && y <= 2992)
+		mpos := "Snake Farm LV"
+	else if (x >= -409 && x <= -129) && (y >= 2357 && y <= 2992)
+		mpos := "Las Payasdas"
+	else if (x >= -2965 && x <= -2825) && (y >= 1217 && y <= 1342) || (x >= -2825 && x <= -2767) && (y >= 1217 && y <= 1531) || (x >= -2589 && x <= -2303) && (y >= 1158 && y <= 1462) || (x >= -2303 && x <= -2222) && (y >= 1327 && y <= 1462)
+		mpos := "Jizzys Club bei Gant Bridge"
+	else if (x >= -2589 && x <= -2222) && (y >= 1462 && y <= 1670)
+		mpos := "Frachtschiff bei Gant Bridge"
+	else if (x >= -2222 && x <= -1863) && (y >= 1327 && y <= 1602) || (x >= -1863 && x <= -1614) && (y >= 1386 && y <= 1602)
+		mpos := "SF Docks"
+	else if (x >= -1614 && x <= -1231) && (y >= 1386 && y <= 1602) || (x >= -1481 && x <= -1231) && (y >= 1228 && y <= 1386)
+		mpos := "Frachtschiff bei Garver Bridge"
+	else if (x >= -1008 && x <= -448) && (y >= 1776 && y <= 2157)
+		mpos := "Sherman Staudamm"
+	else if (x >= -500 && x <= -448) && (y >= 1683 && y <= 1776) || (x >= -448 && x <= -145) && (y >= 1683 && y <= 2084) || (x >= -214 && x <= -145) && (y >= 2084 && y <= 2357) || (x >= -145 && x <= -129) && (y >= 2213 && y <= 2357)
+		mpos := "Kristallsole"
+	else if (x >= -1231 && x <= -500) && (y >= 1228 && y <= 1776)
+		mpos := "Las Barrancas"
+	else if (x >= -1005 && x <= -476) && (y >= 725 && y <= 1228)
+		mpos := "ehm. Hitman Base (LV)"
+	else if (x >= -2996 && x <= -2530) && (y >= -200 && y <= 65)
+		mpos := "Ocean Flats"
+	else if (x >= -2996 && x <= -2542) && (y >= 200 && y <= 551)
+		mpos := "Stadthalle (SF)"
+	else if (x >= -2541 && x <= -2150) && (y >= 200 && y <= 551)
+		mpos := "Villa bei Baseballfeld (SF)"
+	else if (x >= -1863 && x <= -1201) && (y >= 431 && y <= 551) || (x >= -1873 && x <= -1305) && (y >= 241 && y <= 431)
+		mpos := "Flugzeugträger (SF)"
+	else if (x >= -2701 && x <= -2303) && (y >= 917 && y <= 1158)
+		mpos := "Burger Shot bei Gant Bridge"
+	else if (x >= -2303 && x <= -1863) && (y >= 917 && y <= 1327)
+		mpos := "Kirche (SF)"
+	else if (x >= -1863 && x <= -1481) && (y >= 869 && y <= 1386)
+		mpos := "Ottos Autos"
+	else if (x >= -1863 && x <= -1481) && (y >= 551 && y <= 869)
+		mpos := "SFPD"
+	else if (x >= -2277 && x <= -1863) && (y >= 551 && y <= 917)
+		mpos := "Chinatown (SF)"
+	else if (x >= -1481 && x <= -1005) && (y >= 551 && y <= 1228)
+		mpos := "Garver Bridge"
+	else if (x >= 1074 && x <= 1621) && (y >= 2655 && y <= 2992)
+		mpos := "Golfclub (LV)"
+	else if (x >= 1074 && x <= 2097) && (y >= 2516 && y <= 2992)
+		mpos := "Villenviertel (LV)"
+	else if (x >= 2097 && x <= 2470) && (y >= 2579 && y <= 2992)
+		mpos := "ehm. Schmuglerpoint (LV)"
+	else if (x >= 2470 && x <= 2992) && (y >= 2565 && y <= 2992)
+		mpos := "Militärfabrik"
+	else if (x >= 524 && x <= 1199) && (y >= 1931 && y <= 2516)
+		mpos := "Pillson Kreuzung (LV)"
+	else if (x >= 1012 && x <= 1199) && (y >= 1591 && y <= 1724) || (x >= 824 && x <= 1199) && (y >= 1373 && y <= 1591)
+		mpos := "Dirtring Arena (LV)"
+	else if (x >= 870 && x <= 1199) && (y >= 1591 && y <= 1931)
+		mpos := "ehm. FBI Base (LV)"
+	else if (x >= 1199 && x <= 1717) && (y >= 2030 && y <= 2516)
+		mpos := "Stadion (LV)"
+	else if (x >= 1717 && x <= 2097) && (y >= 2284 && y <= 2516)
+		mpos := "mittlerer HW bei Stadion (LV)"
+	else if (x >= 2097 && x <= 2470) && (y >= 2239 && y <= 2579)
+		mpos := "LVPD"
+	else if (x >= 2470 && x <= 2992) && (y >= 2095 && y <= 2565)
+		mpos := "Rock Hotel"
+	else if (x >= 742 && x <= 870) && (y >= 1591 && y <= 1931)
+		mpos := "Schießstand bei der ehm. FBI Base"
+	else if (x >= 524 && x <= 742) && (y >= 1591 && y <= 1931)
+		mpos := "Tankstelle Area51"
+	else if (x >= 958 && x <= 1431) && (y >= 813 && y <= 1101)
+		mpos := "Blackfield Intersection"
+	else if (x >= 958 && x <= 1735) && (y >= 604 && y <= 960)
+		mpos := "ehm. Triaden Base LV"
+	else if (x >= 1557 && x <= 1736) && (y >= 1704 && y <= 1933)
+		mpos := "Krankenhaus (LV)"
+	else if (x >= 1199 && x <= 1778) && (y >= 1101 && y <= 2030) || (x >= 1431 && x <= 1778) && (y >= 960 && y <= 1101)
+		mpos := "Airport (LV)"
+	else if (x >= 1717 && x <= 2110) && (y >= 2030 && y <= 2284)
+		mpos := "Redsands East (LV)"
+	else if (x >= 1778 && x <= 1814) && (y >= 906 && y <= 2030) || (x >= 1735 && x <= 1778) && (y >= 906 && y <= 960)
+		mpos := "mittlerer HW (LV)"
+	else if (x >= 1735 && x <= 1862) && (y >= 797 && y <= 906)
+		mpos := "ehm. HP-HW (LV)"
+	else if (x >= 2203 && x <= 2419) && (y >= 1369 && y <= 1577)
+		mpos := "Parkhaus (LV)"
+	else if (x >= 2051 && x <= 2337) && (y >= 1577 && y <= 1784)
+		mpos := "ehm. Casino (LV)"
+	else if (x >= 1814 && x <= 2061) && (y >= 1458 && y <= 1708)
+		mpos := "ehm. Hovercraft BIZ"
+	else if (x >= 1814 && x <= 2110) && (y >= 1708 && y <= 2030)
+		mpos := "Visage Hotel"
+	else if (x >= 2110 && x <= 2470) && (y >= 1708 && y <= 2239)
+		mpos := "Strip (LV)"
+	else if (x >= 2337 && x <= 2470) && (y >= 1577 && y <= 1708) || (x >= 2470 && x <= 2992) && (y >= 1577 && y <= 2095)
+		mpos := "östlicher HW (LV)"
+	else if (x >= 1814 && x <= 2598) && (y >= 1184 && y <= 1577)
+		mpos := "Pyramide (LV)"
+	else if (x >= 2598 && x <= 2992) && (y >= 1103 && y <= 1577)
+		mpos := "ehem. Yakuza Base"
+	else if (x >= 2598 && x <= 2992) && (y >= 734 && y <= 1103)
+		mpos := "ehm. Russen Mafia Base"
+	else if (x >= 1814 && x <= 1862) && (y >= 906 && y <= 1184) || (x >= 1862 && x <= 2287) && (y >= 825 && y <= 1184)
+		mpos := "Four Dragons Casino"
+	else if (x >= 2287 && x <= 2598) && (y >= 825 && y <= 1184)
+		mpos := "Kirche (LV)"
+	else if (x >= 1735 && x <= 1807) && (y >= 604 && y <= 797) || (x >= 1807 && x <= 2139) && (y >= 572 && y <= 825)
+		mpos := "ehm. HP Base"
+	else if (x >= 1845 && x <= 2139) && (y >= 425 && y <= 572) || (x >= 2139 && x <= 2598) && (y >= 425 && y <= 825)
+		mpos := "Boot BIZ"
+	else if (x >= 2598 && x <= 2992) && (y >= 233 && y <= 734)
+		mpos := "Schmugglerschienen"
+	else if (x >= 295 && x <= 958) && (y >= 262 && y <= 632)
+		mpos := "WT Brücke"
+	else if (x >= 1566 && x <= 1845) && (y >= 238 && y <= 604)
+		mpos := "Zoll"
+	else if (x >= 1566 && x <= 1842) && (y >= -681 && y <= -7)
+		mpos := "LS/LV-HW"
+	else if (x >= 1842 && x <= 2180) && (y >= -876 && y <= -298) || (x >= 2180 && x <= 2934) && (y >= -822 && y <= -298)
+		mpos := "North Rock"
+	else if (x >= 2180 && x <= 2934) && (y >= -1125 && y <= -822)
+		mpos := "ehm. Ballas Base (LS-N.)"
+	else if (x >= 2180 && x <= 2378) && (y >= -1310 && y <= -1125)
+		mpos := "Bikeshop"
+	else if (x >= 2180 && x <= 2966) && (y >= -1490 && y <= -1125)
+		mpos := "East Los Santos"
+	else if (x >= 2624 && x <= 2966) && (y >= -2106 && y <= -1490)
+		mpos := "Dirtring Arena (LS)"
+	else if (x >= 2209 && x <= 2934) && (y >= -2800 && y <= -2106)
+		mpos := "Docks (LS)"
+	else if (x >= 2180 && x <= 2624) && (y >= -1756 && y <= -1490)
+		mpos := "Grove Base"
+	else if (x >= 2409 && x <= 2624) && (y >= -2106 && y <= -1756)
+		mpos := "Kanal (Grove Street)"
+	else if (x >= 1969 && x <= 2409) && (y >= -2106 && y <= -1756)
+		mpos := "Grove PnS"
+	else if (x >= 1668 && x <= 1969) && (y >= -2176 && y <= -2043)
+		mpos := "Ballas Base"
+	else if (x >= 1668 && x <= 1969) && (y >= -2043 && y <= -1756)
+		mpos := "Noobautohaus"
+	else if (x >= 1702 && x <= 1842) && (y >= -1600 && y <= -1544) || (x >= 1702 && x <= 2180) && (y >= -1756 && y <= -1544)
+		mpos := "Alhambra"
+	else if (x >= 1842 && x <= 2180) && (y >= -1600 && y <= -1344)
+		mpos := "Skater Park"
+	else if (x >= 1842 && x <= 2180) && (y >= -1344 && y <= -876)
+		mpos := "Glen Park"
+	else if (x >= 1454 && x <= 1842) && (y >= -1153 && y <= -681)
+		mpos := "HW-Auffahrt (LS)"
+	else if (x >= 1287 && x <= 1842) && (y >= -1544 && y <= -1153)
+		mpos := "Startower"
+	else if (x >= 1525 && x <= 1702) && (y >= -1726 && y <= -1581)
+		mpos := "LSPD"
+	else if (x >= 1287 && x <= 1702) && (y >= -1726 && y <= -1544)
+		mpos := "Pershing Square"
+	else if (x >= 1358 && x <= 1702) && (y >= -1848 && y <= -1726)
+		mpos := "Stadthalle (LS)"
+	else if (x >= 1200 && x <= 2209) && (y >= -2800 && y <= -2106) || (x >= 999 && x <= 1200) && (y >= -2488 && y <= -2338)
+		mpos := "Airport (LS)"
+	else if (x >= 1041 && x <= 1668) && (y >= -2388 && y <= -1848) || (x >= 939 && x <= 1041) && (y >= -2338 && y <= -2145)
+		mpos := "Krankenhaus (LS)"
+	else if (x >= 1008 && x <= 1454) && (y >= -1153 && y <= -681)
+		mpos := "BSN"
+	else if (x >= 731 && x <= 1008) && (y >= -1271 && y <= -789)
+		mpos := "Friedhof (LS)"
+	else if (x >= 907 && x <= 1287) && (y >= -1693 && y <= -1153) || (x >= 1041 && x <= 1287) && (y >= -1703 && y <= -1693)
+		mpos := "Verona Mall / LSKH"
+	else if (x >= 1041 && x <= 1358) && (y >= -1848 && y <= -1703)
+		mpos := "Bus Base"
+	else if (x >= 55 && x <= 1041) && (y >= -2145 && y <= -1693) || (x >= 1 && x <= 55) && (y >= -1952 && y <= -1693)
+		mpos := "Santa Maria Beach"
+	else if (x >= 731 && x <= 907) && (y >= -1413 && y <= -1271)
+		mpos := "Market Station"
+	else if (x >= 462 && x <= 731) && (y >= -1376 && y <= -1063)
+		mpos := "Rentcar BIZ (LS)"
+	else if (x >= 647 && x <= 907) && (y >= -1692 && y <= -1376)
+		mpos := "BSS (Burger Shot South)"
+	else if (x >= 65 && x <= 647) && (y >= -1693 && y <= -1185) || (x >= 1 && x <= 65) && (y >= -1693 && y <= -1544)
+		mpos := "Crashhotel"
+	else if (x >= 65 && x <= 428) && (y >= -789 && y <= -493) || (x >= 65 && x <= 731) && (y >= -1063 && y <= -789) || (x >= 65 && x <= 462) && (y >= -1185 && y <= -1063)
+		mpos := "westl. Villenviertel (LS)"
+	else if (x >= 428 && x <= 1008) && (y >= -789 && y <= -336)
+		mpos := "Dillimore"
+	else if (x >= 547 && x <= 1008) && (y >= -336 && y <= -113) || (x >= 1008 && x <= 1566) && (y >= -681 && y <= -113)
+		mpos := "Hitmen-Base LS-N."
+	else if (x >= 1845 && x <= 2598) && (y >= -298 && y <= 425) || (x >= 1842 && x <= 1845) && (y >= -298 && y <= 7)
+		mpos := "Palomino Creek"
+	else if (x >= 2598 && x <= 2992) && (y >= -298 && y <= 233)
+		mpos := "East-LS-HW"
+	else if (x >= 1440 && x <= 1845) && (y >= -7 && y <= 238)
+		mpos := "Raststätte"
+	else if (x >= 958 && x <= 1566) && (y >= -133 && y <= 604)
+		mpos := "Montgomery"
+	else if (x >= 547 && x <= 958) && (y >= -113 && y <= 263)
+		mpos := "Fleischberg (Der Berg)"
+	else if (x >= -891 && x <= -387) && (y >= -241 && y <= 363)
+		mpos := "Panopticon"
+	else if (x >= -2530 && x <= -2141) && (y >= -65 && y <= 200)
+		mpos := "Baseballfeld (SF)"
+	else if (x >= -2007 && x <= -1863) && (y >= -65 && y <= 225)
+		mpos := "Bahnhof (SF)"
+	else if (x >= -2141 && x <= -1863) && (y >= -65 && y <= 551)
+		mpos := "Baustelle (SF)"
+	else if (x >= -1863 && x <= -891) && (y >= -892 && y <= 551)
+		mpos := "Airport (SF)"
+	else if (x >= -129 && x <= 524) && (y >= 2213 && y <= 2992) || (x >= 524 && x <= 1274) && (y >= 2516 && y <= 2992)
+		mpos := "verlassener Flughafen"
+	else if (x >= -118 && x <= 329) && (y >= 1269 && y <= 1591)
+		mpos := "West Las Venturas (GW Gebiet)"
+	else if (x >= -1005 && x <= -891) && (y >= 551 && y <= 725) || (x >= -891 && x <= 250) && (y >= 363 && y <= 725) || (x >= 250 && x <= 295) && (y >= 363 && y <= 632)
+		mpos := "LV-Bayside HW"
+	else if (x >= -387 && x <= 547) && (y >= -493 && y <= 363)
+		mpos := "Blueberry (Fleischberg ost)"
+	else if (x >= -369 && x <= 65) && (y >= -848 && y <= -493)
+		mpos := " Fleischberg See"
+	else if (x >= -327 && x <= 65) && (y >= -1544 && y <= -493)
+		mpos := "Tanke LS-SF Brücke"
+	else if (x >= -412 && x <= 1) && (y >= -1952 && y <= -1544)
+		mpos := "LS-SF HW"
+	else if (x >= -1040 && x <= 55) && (y >= -2979 && y <= -1952) || (x >= 55 && x <= 133) && (y >= -2907 && y <= -2451)
+		mpos := "Südost SF"
+	else if (x >= -2589 && x <= -1911) && (y >= 1602 && y <= 2071)
+		mpos := "Ozean bei Bayside"
+	else
+		mpos := "Ozean"
+	if (dir) {
+		mpos .= " r. "
+		if (r > 337.5 && r <= 360 || r >= 0 && r < 22.5) {
+			mpos .= "N"
+		}
+		else if (r >= 22.5 && r <= 67.5) {
+			mpos .= "NO"
+		}
+		else if (r > 67.5 && r < 112.5) {
+			mpos .= "O"
+		}
+		else if (r >= 112.5 && r <= 157.5) {
+			mpos .= "SO"
+		}
+		else if (r > 157.5 && r < 202.5) {
+			mpos .= "S"
+		}
+		else if (r >= 202.5 && r <= 247.5) {
+			mpos .= "SW"
+		}
+		else if (r > 247.5 && r < 292.5) {
+			mpos .= "W"
+		}
+		else if (r >= 292.5 && r <= 337.5) {
+			mpos .= "NW"
+		}
+	}
+	return mpos
+}
+//Zeile 573 <- Entfernen
