@@ -1,0 +1,17 @@
+
+Bind1=r
+Bind1Text=/me hebt zum Gruß die Hand.
+Bind2=Insert
+Bind2Text=/speedcam
+Bind3=Home
+Bind3Text=/me nimmt den Dienstausweiß und öffnet die Türe
+Bind4=0
+Bind4Text=/me nutzt das im Helm integrierte Sprechfunkgerät und spricht etwas hinein
+Bind5=ü
+Bind5Text=/me nimmt seine externe Weste vom Sitz und zieht sie sich an.
+Bind6=ö
+Bind6Text=/me betätig den PTT-Knopf am Walkitalki
+Bind7=ScrollLock
+Bind7Text=ERROR
+Bind8=p
+Bind8Text=/me nimmt seine externe Weste, zieht diese aus und hängt sie über den Sitz.
