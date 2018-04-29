@@ -1,0 +1,99 @@
+​
+
+​
+
+Einsatzbericht vom: [DATUM]
+
+​
+
+[headline][/headline]
+
+​
+
+[scallout=#FF0000, Allgemeine Daten]
+
+Einsatznummer: XXX
+
+Datum:
+
+Zeit:
+
+Ort:
+
+[/scallout]
+
+[scallout=#FF0000, Einsatzinformation]
+
+Art des Einsatzes: [] Notfalleinsatz [] Organ/Bluttransport [] Krankentransport [] Brand [] Verkehrsunfall [] Sonstigen:
+
+Anzahl Verletzte: (Anzahl der Patienten)
+
+Anzahl beteiligter Fahrzeuge: (Anzahl der Unfallfahrzeuge)
+
+Anzahl Brennender Objekte: (Anzahl der Brennden Gebäude/Objekte)
+
+Kurzfassung des Einsatzverlaufes: (Kurzer Bericht zum Verlauf des Einsatzes)
+
+[/scallout]
+
+[scallout=#FF0000, Verletzungen des Patienten]
+
+Art der Verletzung: [] Prellung/Fraktur [] Innere Verletzungen []Sonstige Verletzungen:
+
+Wenn Verletzung. Welche?: (Hier die Verletzungen benennen z.b Fraktur des re. Unterarms,)
+
+Zustand des Patienten: [] Unter Alkoholeinfluss, [] Drogeneinfluss [] Schock [] Normal [] Bewusstlos/Orientierungslos
+
+Was geschah mit dem Patient: [] SAMC/JMC Einlieferung [] Vor Ort entlassen (kein Transport) [] ans SAPD/FIB/DOC übergeben []Sonstigen:
+
+[/scallout]
+
+[scallout=#FF0000, Sonstige Informationen]
+
+Weitere Kräfte vor Ort von:
+
+[ ] SARC
+
+[ ] SAPD
+
+[ ] FIB
+
+[ ] POD
+
+[ ] DOC
+
+Eingesetzte EMS Kräfte:
+
+[/scallout]
+
+[scallout=#FF0000, Fahrzeuge des EMS]
+
+Office of the Chief of Department:
+
+[] 40-Chief-1 [] 40-Chief-2
+
+Office of Medical Operations:
+
+[] 40-AMB-1 [] 40-AMB-2 [] 40-AMB-3 [] 40-AMB-4 [] 40-AMB-5 [] 50-AMB-1 [] 50-AMB-2 [] 40-FR-1
+
+Office of Fire Operations:
+
+[] 40-ENG-1 [] 90-ENG-2 [] 40-LAD-1 [] 40-RESCUE-1
+
+Supervisor:
+
+[] 40-DIV-1 [] 40-BAT-1
+
+Rettungshelicopter
+
+[b][]MEDIVAC-40
+
+MANV:
+
+[] 40-MERV-1 [] 40-MERT-1
+
+Wasserrettung:
+
+[] 40-CHARLIE-1 [] 40-CHARLIE-2
+
+[/scallout]
